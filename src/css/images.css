@@ -1,0 +1,140 @@
+html {
+  font-size: 62.5%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  line-height: 1.5;
+  position: fixed;
+}
+
+.menu_section {
+  transition: .7s all;
+  z-index: 1;
+  height: 50vh;
+  width: 100vw;
+  background-color: #FFF;
+  position: fixed;
+  top: -100%;
+  border-bottom: solid 1px #50E3C2;
+}
+
+.menu_section_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.menu_section_list_item {
+  text-decoration: none;
+  transition: .3s all;
+  color: #B9B9B9;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.menu_section_list_item_container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.menu_section_list_item:hover {
+  color: #000;
+  padding-left: 10px;
+}
+
+.menu_section_logo_container {
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.logo_container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 15px;
+}
+
+.menu_container {
+  cursor: pointer;
+  transition: all .7s;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 15px;
+}
+
+.menu_container:hover {
+  transform: scale(1.2);
+}
+
+.menu_container:active {
+  transition: .1s all;
+  transform: scale(1);
+}
+
+.menu_img_button {
+  width: 70px;
+}
+
+
+#menu-logo-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 80px;
+}
+
+#menu-button-open {
+  bottom: -30%;
+}
+
+/* IMAGES SECTION */
+
+.images {
+  width: 100vw;
+  height: 80vh;
+}
+
+.images_container {
+  margin: 0 5%;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_img {
+  max-height: 70%;
+  max-width: 70%;
+  height: auto;
+}
+
+.information_title_container {
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  font-size: 2.4rem;
+  align-items: flex-end;
+}
+
+.bluebar {
+  margin-top: 10px;
+  width: 80px;
+  height: 1px;
+  background-color: #50E3C2;
+  position: absolute;
+}

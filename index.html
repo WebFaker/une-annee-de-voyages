@@ -1,0 +1,158 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Une Année De Voyages</title>
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/flickity.css">
+</head>
+
+<body>
+
+  <section id="menu-section" class="menu_section">
+    <div class="menu_section_container">
+      <ul class="menu_section_list_container">
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="index.html">Accueil</a></li>
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="magazines.html">Magazines</a></li>
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="top.html">TOP 100</a></li>
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="about.html">À propos</a></li>
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="contact.html">Contactez-nous</a></li>
+      </ul>
+      <div>
+        <a href="index.html">
+        <img src="./src/img/logo.png" alt="Logo" id="menu-logo-img">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="scroll_container">
+    <div class="logo_container">
+      <a href="index.html">
+      <img src="./src/img/logo.png" alt="Logo">
+      </a>
+    </div>
+    <div id="menu-button" class="menu_container">
+      <img id="menu-button-img" class="menu_img_button" src="./src/img/menu.png" alt="Menu">
+    </div>
+    <div id="menu-button-open" class="menu_container">
+      <img id="menu-button-open-img" class="menu_img_button" src="./src/img/menu-open.png" alt="Menu">
+    </div>
+
+    <header class="header">
+      <video autoplay muted loop id="video">
+    <source src="./src/video/header-video.mp4" type="video/mp4">
+  </video>
+      <div class="header_title_container">
+        <p class="header_title">
+          Une Année De Voyages
+        </p>
+        <div class="bluebar"></div>
+        <p class="header_description">
+          Des voyages testés. Des idées pour partir toute l'année.
+        </p>
+      </div>
+  </div>
+  </header>
+
+  <section class="information">
+    <div class="information_title_container">
+      <p class="section_title">
+        Dernier magazine :
+      </p>
+      <div class="bluebar"></div>
+      <p class="information_title_description">
+        Un mook collector . Des fiches pratiques . Une application . Un site
+      </p>
+    </div>
+    <div class="information_paragraph">
+      <div class="information_paragraph_img_container">
+        <img class="information_paragraph_img" src="./src/img/mook.png" alt="Mook">
+      </div>
+    </div>
+    <div class="learnmore_button">
+      <a href="magazines.html" class="information_title_description button">
+        En savoir plus.
+      </a>
+    </div>
+  </section>
+
+  <section class="twitter">
+    <div class="twitter_api_container">
+      <a class="twitter-timeline" href="https://twitter.com/search?q=from%3AAirFranceFR%20OR%20from%3AMAS%20OR%20from%3AtransaviaFR%20OR%20from%3AAmericanAir" data-widget-id="999340221144748032">Tweets sur from:AirFranceFR OR from:MAS OR from:transaviaFR OR from:AmericanAir</a>
+      <script>
+        ! function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+          if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + "://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        }(document, "script", "twitter-wjs");
+      </script>
+    </div>
+  </section>
+
+  <section class="images">
+    <div class="images_container">
+      <div class="information_title_container">
+        <h2 class="section_title">
+        La Boîte à Images.
+      </h2>
+        <div class="bluebar"></div>
+      </div>
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img1.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img2.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img3.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img4.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img5.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img6.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img7.jpeg" alt=""></div>
+        <div class="carousel-cell"><img class="img_img" src="./src/img/img8.jpeg" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h2 class="footer-title">Partenaires</h2>
+    <div class="bluebar"></div>
+    <div class="footer-imgContainer">
+      <img src="./src/img/af.png" alt="Aéroport" class="footer-img">
+      <img src="./src/img/fuji.png" alt="Fujifilm" class="footer-img">
+      <img src="./src/img/nikon.png" alt="Nikon" class="footer-img">
+    </div>
+    <div class="footer-pages">
+      <a href="about.html" class="footer-pageLink">
+        <p class="footer-page">À propos</p>
+      </a>
+      <a href="contact.html" class="footer-pageLink">
+        <p class="footer-page">Contactez-nous</p>
+      </a>
+      <a href="" class="footer-pageLink">
+        <p class="footer-page">PAGEEEE</p>
+      </a>
+      <a href="" class="footer-pageLink">
+        <p class="footer-page">PAGEEEE</p>
+      </a>
+      <a href="" class="footer-pageLink">
+        <p class="footer-page">Tous droits réservés Une Année De Voyages ©2018-2022
+
+        </p>
+      </a>
+
+    </div>
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./src/js/main.js"></script>
+  <script type="text/javascript" src="./src/js/flickity.js"></script>
+</body>
+
+</html>

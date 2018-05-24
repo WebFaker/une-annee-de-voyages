@@ -1,0 +1,95 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/magazines.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <section id="menu-section" class="menu_section">
+    <div class="menu_section_container">
+      <ul class="menu_section_list_container">
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="index.html">Accueil</a></li>
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="magazines.html">Magazines</a></li>
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="top.html">TOP 100</a></li>
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="about.html">À propos</a></li>
+        <li class="menu_section_list_item_container"><a class="menu_section_list_item" href="contact.html">Contactez-nous</a></li>
+      </ul>
+      <div>
+        <a href="index.html">
+        <img src="./src/img/logo.png" alt="Logo" id="menu-logo-img">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="scroll_container">
+    <div class="logo_container">
+      <a href="index.html">
+      <img src="./src/img/logo.png" alt="Logo">
+      </a>
+    </div>
+    <div id="menu-button" class="menu_container">
+      <img id="menu-button-img" class="menu_img_button" src="./src/img/menu.png" alt="Menu">
+    </div>
+    <div id="menu-button-open" class="menu_container">
+      <img id="menu-button-open-img" class="menu_img_button" src="./src/img/menu-open.png" alt="Menu">
+    </div>
+
+    <section class="information">
+      <div class="information_title_container">
+        <h2 class="information_title">
+        Suivez l'actualité, tout simplement.
+      </h2>
+        <div class="bluebar"></div>
+      </div>
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="carousel-cell"><img class="mook1" src="./src/img/mook.png" alt=""></div>
+        <div class="carousel-cell"><img src="./src/img/logo.png" alt=""></div>
+        <div class="carousel-cell"><img src="./src/img/logo.png" alt=""></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h2 class="footer-title">Partenaires</h2>
+      <div class="bluebar"></div>
+      <div class="footer-imgContainer">
+        <img src="./src/img/af.png" alt="Aéroport" class="footer-img">
+        <img src="./src/img/fuji.png" alt="Fujifilm" class="footer-img">
+        <img src="./src/img/nikon.png" alt="Nikon" class="footer-img">
+      </div>
+      <div class="footer-pages">
+        <a href="about.html" class="footer-pageLink">
+          <p class="footer-page">À propos</p>
+        </a>
+        <a href="contact.html" class="footer-pageLink">
+          <p class="footer-page">Contactez-nous</p>
+        </a>
+        <a href="" class="footer-pageLink">
+          <p class="footer-page">PAGEEEE</p>
+        </a>
+        <a href="" class="footer-pageLink">
+          <p class="footer-page">PAGEEEE</p>
+        </a>
+        <a href="" class="footer-pageLink">
+          <p class="footer-page">Tous droits réservés Une Année De Voyages ©2018-2022
+
+          </p>
+        </a>
+
+      </div>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./src/js/main.js"></script>
+
+</html>

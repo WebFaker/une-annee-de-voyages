@@ -1,0 +1,32 @@
+.containerInputArticle{
+  height: 50vh;
+width: 69vh;
+margin: 0 auto;
+}
+.containInputArticle{
+  display: flex;
+  justify-content: space-between;
+}
+.text{
+  color: #50E3C2;
+}
+.input{
+  color: #50E3C2;
+  height: 26px;
+  width: 270px;
+  margin-top: 11px;
+}
+.valide{
+  margin: 0 auto;
+  display: block;
+}
+.title{
+  text-align: center;
+  color: #50E3C2;
+      margin-top: 150px;
+}
+.contour{
+  border-radius: 7px;
+    border: 1px solid black;
+    padding: 38px;
+}

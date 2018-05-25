@@ -124,10 +124,16 @@ body {
 
 .top-content {
   position: relative;
+  transition: .3s all;
 }
 
 .topContainer {
   margin: 0 20%;
+}
+
+.top-content:hover {
+  opacity: .5;
+  transform: scale(1.025)
 }
 
 .top-contentBg {

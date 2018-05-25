@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Catamaran, sans-serif;
+}
+
+.Articles-header {
+  text-align: center;
+}
+.Articles-header::after {
+  margin: auto;
+  display: block;
+  height: 3px;
+  width: 30vw;
+  background: #00cccc;
+  content: '';
+}
+.Articles-itemContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 110px;
+}
+.Articles-item {
+  position: relative;
+  min-height: 50vh;
+  width: 90vw;
+  margin: 2vh auto;
+  box-shadow: 3px 3px 10px;
+}
+.Articles-itemImg {
+  width: 100%;
+}
+.Articles-itemTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 2vw;
+}
+.Articles-itemCategory {
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 2vw;
+}
+.Articles-itemSubCategory {
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 2vw;
+}
+.Articles-itemDate {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 3vw;
+}
+.container{
+  display: flex;
+}
+.ligne{
+  border: 1px solid black;
+}
+/* Portrait and Landscape */
+@media only screen and (min-width: 600px) {
+  .Articles-itemContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Articles-item {
+    min-height: 40vh;
+    width: 30%;
+  }
+}

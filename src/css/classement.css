@@ -1,0 +1,190 @@
+html {
+  font-size: 62.5%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  z-index: -1;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.menu_section {
+  z-index: 3;
+  transition: .7s all;
+  height: 50vh;
+  width: 100vw;
+  background-color: #FFF;
+  position: fixed;
+  top: -100%;
+  border-bottom: solid 1px #50E3C2;
+}
+
+.menu_section_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.menu_section_list_item {
+  text-decoration: none;
+  transition: .3s all;
+  color: #B9B9B9;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+.menu_section_list_item_container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.menu_section_list_item:hover {
+  color: #000;
+  padding-left: 10px;
+}
+
+.menu_section_logo_container {
+  width: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.logo_container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 15px;
+}
+
+.menu_container {
+  cursor: pointer;
+  transition: all .7s;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 15px;
+}
+
+.menu_container:hover {
+  transform: scale(1.2);
+}
+
+.menu_container:active {
+  transition: .1s all;
+  transform: scale(1);
+}
+
+.menu_img_button {
+  width: 70px;
+}
+
+
+#menu-logo-img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 80px;
+}
+
+#menu-button-open {
+  bottom: -30%;
+}
+
+/* SECTION CLASSEMENT */
+
+.classement {
+  width: 100vw;
+}
+
+.classement_container {
+margin: 0 20%;
+}
+
+.bluebar {
+position: absolute;
+margin-top: 20px;
+left:50%;
+transform: translate(-50%, 0);
+justify-content: center;
+height: 1px;
+width: 80px;
+background-color: #50E3C2;
+}
+
+.about_maintitle_container {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.container {
+  margin-top: 100px;
+}
+.paragraph_text {
+  font-size: 2.4rem;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  margin-top: 150px;
+  width: 100vw;
+}
+
+.footer-title {
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.footer-imgContainer {
+  margin: 5% 20%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.footer-img {
+  width: auto;
+  height: auto;
+  margin-top: 15%;
+}
+
+.footer-pages {
+  margin: 10% 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width:600px) {
+  .footer-pages {
+    margin: 10% 20%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.footer-pageLink {
+  text-decoration: none;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  line-height: 2.5;
+  font-size: 1.4rem;
+}
+
+@media only screen and (min-width:600px) {
+  .footer-pageLink {
+    padding: 10px;
+  }
+}
